@@ -168,3 +168,177 @@ footer {
 footer :hover {
     color: blue;
 }
+
+/* media query */
+
+@media only screen and (max-width: 1024px) {
+    header {
+        display: block;
+        justify-content: space-around;
+    }
+
+    header .navigation {
+        width: 100%;
+
+    }
+
+    #missao .missao-a {
+        height: 28%;
+    }
+
+    footer a:hover {
+        color: blue;
+    }    
+}
+
+
+@media only screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+
+    #missao .missao-a {
+        align-self: end;
+        height: 32%;
+    }
+
+    .produtos {
+        display: flex;
+        height: 100%;
+    }
+
+    .produto-primeiro {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .produtos p {
+        margin-left: 50px;
+    }
+    .produto-segundo {
+        width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .produto-terceiro {
+        width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+        margin-left: 15%;
+    }
+    .produto-quarto {
+        width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    footer a:hover {
+        color: blue;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .navigation {
+        display: inline-block;
+        margin-top: -15px;
+    }
+
+    header .navigation a {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    #missao {
+        height: 900px; 
+        width: 100%;
+        width: inherit;
+    }
+    .missao-a {
+        line-height: 2.5rem;
+    }
+
+    .produto-primeiro {
+        display: inline-block;
+    }
+    .produto-primeiro p {
+        margin-left: 0px;
+    }
+
+    .produto-segundo {
+        display: inline-block;
+    }
+    .produto-segundo p {
+        margin-left: 0px;
+    }
+
+    .produto-terceiro {
+        display: inline-block;
+    }
+    .produto-terceiro p {
+        margin-left: 0px;
+    }
+
+    .produto-quarto {
+        display: inline-block;
+    }
+    .produto-quarto p {
+        margin-left: 0px;
+    }
+
+    .administracao {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .administracao p {
+        margin-top: -20px
+    }
+
+    .conselho-a {
+        width: 100%;
+    }
+    .conselho-b {
+        width: 100%;
+    }
+
+    .conselho-c {
+        width: 100%;
+    }
+    .conselho-d {
+        width: 100%;
+    }
+    .conselho-e {
+        width: 100%;
+    }
+
+    .way {
+        width: 100%;
+        height: 100%
+    }
+
+    .way .valores {
+        display: inline-block;
+    }
+
+    .valores div {
+        height: 200px;
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    footer {
+        font-size: 15px;
+        text-align: center;
+    }
+    footer a:hover {
+        color: blue;
+    }    
+
+}
